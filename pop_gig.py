@@ -5,4 +5,4 @@ from PyQt5 import uic
 class PopGig(QDialog):
     def __init__(self):
         super(PopGig, self).__init__()
-        uic.loadUi('pop_gig.ui', self)
+        uic.loadUi('design/pop_gig.ui', self)

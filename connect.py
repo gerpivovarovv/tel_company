@@ -9,6 +9,7 @@ class ConeBase:
         try:
             self.con = connect(
                 host='localhost',
+                password='20RhJrJlBk06',
                 user='root',
                 db='company'
             )

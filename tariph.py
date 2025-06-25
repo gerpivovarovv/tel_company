@@ -5,4 +5,4 @@ from PyQt5 import uic
 class ChTar(QDialog):
     def __init__(self):
         super(ChTar, self).__init__()
-        uic.loadUi('tariph.ui', self)
+        uic.loadUi('design/tariph.ui', self)

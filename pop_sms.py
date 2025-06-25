@@ -5,4 +5,4 @@ from PyQt5 import uic
 class PopSms(QDialog):
     def __init__(self):
         super(PopSms, self).__init__()
-        uic.loadUi('pop_sms.ui', self)
+        uic.loadUi('design/pop_sms.ui', self)

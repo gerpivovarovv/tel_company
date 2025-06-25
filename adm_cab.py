@@ -5,4 +5,4 @@ from PyQt5 import uic
 class AdmCab(QMainWindow):
     def __init__(self):
         super(AdmCab, self).__init__()
-        uic.loadUi('adm_cab.ui', self)
+        uic.loadUi('design/adm_cab.ui', self)

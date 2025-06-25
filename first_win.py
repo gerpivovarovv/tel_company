@@ -5,4 +5,4 @@ from PyQt5 import uic
 class FirstWin(QMainWindow):
     def __init__(self):
         super(FirstWin, self).__init__()
-        uic.loadUi('first_win.ui', self)
+        uic.loadUi('design/first_win.ui', self)
